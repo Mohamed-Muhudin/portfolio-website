@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#About{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    align-items: center;
+    /*gap: 4erm;*/
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.experience, .Education{
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.paragraph{
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.experience h2, .Education h2,.paragraph h2{
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+.paragraph{
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.main,.experience,.Education{
+    margin-left: 100px;
+}
+.about-img{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    /*margin-bottom: 900px;*/
+    border-radius: 20px;
+    border-image-outset: 20px;
+}
+.About-tex{
+    text-align: center;
+    margin-top: 0;
+} 
+.About-tex h2{
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+
+}
+.About-tex h5{
+    font-size: 25px;
+    line-height: 1.4;
+}
+}
+.About-tex p{
+    font-size: 16px;
+    margin-left: 300px;
+    
+}
+.btn button {
+    background-color: #7d2ae8;
+    color: black;
+    text-align: right;
+    margin-bottom: 2rem;
+    margin-left: 500px;
+    margin-top: 50px;
+
+
+}
+.btn{
+    margin-left: 10px;
+    
+
+}
+.social-icons{
+    position: relative;
+    margin-left: 550px;
+    margin-bottom: 0;
+   }
+   .social-icons a{
+       display: inline-block;
+       justify-content: space-around;
+       width: 35px;
+       height: 35px;
+       background: #7d2ae8;
+       border-radius: 50%;
+       text-align: center;
+       line-height: 35px;
+       border: 1px solid #fff;
+       outline: 2px solid #7d2ae8;
+       transition: .3s; 
+       position: relative; 
+       margin-top: 200px; 
+   }
+   .social-icons A:hover{
+       transform: translateY(-5PX);
+   }
+   
+   .social-icons{
+       color: #fff;
+   }
+   
